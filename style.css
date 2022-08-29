@@ -2,7 +2,7 @@
     --background-color: whitesmoke;
     --font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
     --color: white;
-    --colorRed: red;
+    --colorRed: rgb(250, 100, 100);
 }
 
 *{
@@ -29,7 +29,7 @@ body{
 }
 
 .head{
-    background-color: rgb(224, 37, 37);
+    background-color: var(--colorRed);
     padding: 14px;
     text-align: center;
     font-weight: bold;
@@ -100,6 +100,22 @@ border-color: rgb(16, 94, 16);
     width: 100%;
     border: none;
     border-radius: 4px;
+}
+.container2{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: rgb(35, 150, 35);
+}
+.container2>*{
+    margin-bottom: 15px;
+}
+.container2 p:nth-child(2){
+font-size: 2rem;
+font-weight: bold;
+color: rgb(15, 87, 15);
 }
 
 @media screen and (max-width:600px){

@@ -10,6 +10,9 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   checkInput();
+  if (setSuccessFor(input)){
+   
+  }
 });
 
 function checkInput() {
