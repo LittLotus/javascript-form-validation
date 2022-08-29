@@ -33,14 +33,14 @@ body{
     padding: 14px;
     text-align: center;
     font-weight: bold;
-
+    overflow: hidden;
 }
 .form{
     padding: 20px 30px;
 }
 
 .form-control{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding-bottom: 15px;
     position: relative;
 }
@@ -58,9 +58,6 @@ body{
     border-radius: 4px;
     width: 100%;
 }
-/* .form-control input:focus{
-
-} */
 .form-control.success input{
 border-color: rgb(16, 94, 16);
 }
@@ -103,4 +100,10 @@ border-color: rgb(16, 94, 16);
     width: 100%;
     border: none;
     border-radius: 4px;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        margin: 20px 30px;
+    }
 }
